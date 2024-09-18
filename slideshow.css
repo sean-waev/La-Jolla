@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.fadein img {
+  position: absolute;
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 48s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 48s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  53% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  53% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#f1 {
+    animation-delay: -64s;
+    background-color: white;
+}
+
+#f2 {
+    animation-delay: -88s;
+    background-color: white;
+}
+
+#f3 {
+    animation-delay: -80s;
+    background-color: white;
+}
